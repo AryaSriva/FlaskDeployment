@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Predictor</title>
+  </head>
+  <body>
+    <form action="/predict" method="post">
+      <input
+        type="text"
+        name="Distance"
+        placeholder="Distance Travelled in KM"
+      />
+      <input type="text" name="Cost" placeholder="Cost of Trip" />
+      <button type="submit">Submit</button>
+    </form>
+    {{prediction}}
+  </body>
+</html>
