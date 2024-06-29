@@ -1,0 +1,15 @@
+html {
+  background-color: red;
+  color: white;
+}
+
+div {
+  width: 50%;
+  margin: auto;
+  align-items: center;
+}
+
+form {
+  width:fit-content;
+  margin:auto;
+}

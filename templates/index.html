@@ -5,15 +5,21 @@
     <title>Predictor</title>
   </head>
   <body>
-    <form action="/predict" method="post">
-      <input
-        type="text"
-        name="Distance"
-        placeholder="Distance Travelled in KM"
-      />
-      <input type="text" name="Cost" placeholder="Cost of Trip" />
-      <button type="submit">Submit</button>
-    </form>
-    {{prediction}}
+    <div>
+      <form action="/predict" method="post">
+        <input
+          type="text"
+          name="Distance"
+          placeholder="Distance Travelled in KM"
+        />
+        <input type="text" name="Cost" placeholder="Cost of Trip" />
+        <button type="submit">Submit</button>
+      </form>
+      {{prediction}}
+    </div>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/styles.css')}}"
+    />
   </body>
 </html>
